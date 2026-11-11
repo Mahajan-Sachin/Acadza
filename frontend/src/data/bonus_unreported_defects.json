@@ -1,0 +1,34 @@
+[
+  {
+    "questionId": "68dea87d387eea3d0d95fbe3",
+    "subject": "Physics",
+    "chapter": "Electrostatics",
+    "verdict": "defect",
+    "repair": "markup_leak",
+    "edit": {
+      "field": "question",
+      "find": "<mspace linebreak=\"newline\">",
+      "replace": ""
+    },
+    "route": "auto_apply",
+    "confidence": 0.98,
+    "evidence": "Raw unclosed <mspace linebreak='newline'> HTML/MathML tags leaked into option lines (B), (C), (D) causing visual distortion.",
+    "unreported": true
+  },
+  {
+    "questionId": "68dea657387eea3d0d95f54a",
+    "subject": "Physics",
+    "chapter": "Geometrical optics and optical instruments",
+    "verdict": "defect",
+    "repair": "spelling",
+    "edit": {
+      "field": "solution",
+      "find": "P_{eqch}",
+      "replace": "P_{each}"
+    },
+    "route": "auto_apply",
+    "confidence": 0.96,
+    "evidence": "Typographical error in solution formula subscript: 'P_{eqch}' instead of 'P_{each}'.",
+    "unreported": true
+  }
+]

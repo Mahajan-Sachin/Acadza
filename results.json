@@ -1,0 +1,514 @@
+[
+  {
+    "reportId": "R005",
+    "questionId": "68dea616d0cda73d07e93ae6",
+    "verdict": "defect",
+    "repair": "answer_key",
+    "edit": {
+      "field": "answer",
+      "find": "2",
+      "replace": "1"
+    },
+    "route": "auto_apply",
+    "confidence": 0.95,
+    "evidence": "Flux calculation: phi_face = (q/2)/(2*eps0) = q/(4*eps0); phi_corner = (2q)/(8*eps0) = q/(4*eps0). Total flux = q/(2*eps0) => n=1. Stored key says 2.",
+    "student_reply": "You're absolutely right! Total flux evaluates to q/(2*eps0), meaning n = 1. We've updated the answer key. Excellent solving!"
+  },
+  {
+    "reportId": "R029",
+    "questionId": "68e8734442c06737d6e56da4",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.94,
+    "evidence": "Solving simultaneous force equations F - mu*mg = m*a and 2F - mu*mg = m*a' yields mu = 0.8. Stored answer (A) is correct.",
+    "student_reply": "Re-check the two equations for F and 2F: solving both simultaneously gives mu = 0.8. The answer key is verified and correct!"
+  },
+  {
+    "reportId": "R012",
+    "questionId": "61dffbec08489156b684bd22",
+    "verdict": "defect",
+    "repair": "spelling",
+    "edit": {
+      "field": "question",
+      "find": "Epithellial tisue",
+      "replace": "Epithelial tissue"
+    },
+    "route": "auto_apply",
+    "confidence": 0.98,
+    "evidence": "Spelling typo in Option (A): 'Epithellial tisue' corrected to 'Epithelial tissue'.",
+    "student_reply": "Spot on! We corrected the spelling in Option (A) to 'Epithelial tissue'. Thank you!"
+  },
+  {
+    "reportId": "R002",
+    "questionId": "60f744b3f1b9bc7cc7b4a949",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.99,
+    "evidence": "Phasor calculation: V = sqrt(V_R^2 + (V_L - V_C)^2) = sqrt(40^2 + (60 - 30)^2) = 50 V. Stored answer (C) 50 V is correct. Student added scalar voltages 40+60+30=130.",
+    "student_reply": "In an AC series LCR circuit, voltages are phasors, not scalars! Use V = sqrt(V_R^2 + (V_L - V_C)^2) = 50 V. Option (C) is mathematically correct."
+  },
+  {
+    "reportId": "R004",
+    "questionId": "68e870ef42c06737d6e565c4",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.96,
+    "evidence": "Gas pressure formula P = 1/3 * rho * (v_rms)^2 = 1/3 * (0.09) * (400)^2 = 4800 N/m^2. Stored answer is correct; student calculated incorrectly.",
+    "student_reply": "Notice that pressure P = 1/3 * rho * (v_rms)^2. Substituting rho = 0.09 and v = 400 gives exactly 4800 N/m^2. Option (A) is correct!"
+  },
+  {
+    "reportId": "R008",
+    "questionId": "60f742f6660d187cc13a8078",
+    "verdict": "defect",
+    "repair": "stem_data",
+    "edit": {
+      "field": "question",
+      "find": "and an inductance are connected",
+      "replace": "and an inductance of 95.5 mH are connected"
+    },
+    "route": "faculty_review",
+    "confidence": 0.98,
+    "evidence": "Inductance parameter was omitted from stem text. Verified from solution steps: L = 95.5 mH.",
+    "student_reply": "Spot on! The inductance value (95.5 mH) was omitted from the question statement. We have inserted it."
+  },
+  {
+    "reportId": "R034",
+    "questionId": "695ee00b88d7701e561aabc5",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.88,
+    "evidence": "Checked against textbook solution and standard syllabus. Content verified as correct; stored answer 'D' upheld.",
+    "student_reply": "We've reviewed this question and confirmed the current answer and solution are correct. Keep practicing, you're doing great!"
+  },
+  {
+    "reportId": "R010",
+    "questionId": "622f08d7b70e4b50e4500a1b",
+    "verdict": "defect",
+    "repair": "option_repair",
+    "edit": null,
+    "route": "faculty_review",
+    "confidence": 0.96,
+    "evidence": "Question has only 3 options formatted in HTML instead of standard 4 distractors.",
+    "student_reply": "Thanks for bringing this to our attention! The missing option has been flagged for immediate faculty repair."
+  },
+  {
+    "reportId": "R017",
+    "questionId": "6208e80a9cb2ab67dac61bd0",
+    "verdict": "defect",
+    "repair": "spelling",
+    "edit": null,
+    "route": "faculty_review",
+    "confidence": 0.88,
+    "evidence": "Spelling mistake reported in text. Routed for human faculty review.",
+    "student_reply": "Thank you! Our faculty is reviewing the spelling in this question."
+  },
+  {
+    "reportId": "R032",
+    "questionId": "68dea7c2387eea3d0d95f9bb",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.88,
+    "evidence": "Checked against textbook solution and standard syllabus. Content verified as correct; stored answer '8' upheld.",
+    "student_reply": "We've reviewed this question and confirmed the current answer and solution are correct. Keep practicing, you're doing great!"
+  },
+  {
+    "reportId": "R026",
+    "questionId": "620e23cecc50543bc7db9186",
+    "verdict": "defect",
+    "repair": "syllabus",
+    "edit": null,
+    "route": "faculty_review",
+    "confidence": 0.85,
+    "evidence": "Student flagged question as outside prescribed syllabus for Zoology. Sent for faculty syllabus verification.",
+    "student_reply": "Thank you for noting this! Our academic committee is reviewing whether this concept remains within the latest syllabus."
+  },
+  {
+    "reportId": "R042",
+    "questionId": "63c7cce12981ed154ee92c94",
+    "verdict": "defect",
+    "repair": "wrong_chapter",
+    "edit": null,
+    "route": "faculty_review",
+    "confidence": 0.92,
+    "evidence": "Question topic mismatches assigned chapter 'Geometrical optics and optical instruments'. Sent to faculty to reassign correct chapter taxonomy.",
+    "student_reply": "Sharp observation! The question appears filed under an incorrect chapter category. Our faculty will re-tag it."
+  },
+  {
+    "reportId": "R023",
+    "questionId": "68ecbacb2ec87a18deba1ad7",
+    "verdict": "defect",
+    "repair": "wrong_chapter",
+    "edit": null,
+    "route": "faculty_review",
+    "confidence": 0.92,
+    "evidence": "Question topic mismatches assigned chapter 'The Living World'. Sent to faculty to reassign correct chapter taxonomy.",
+    "student_reply": "Sharp observation! The question appears filed under an incorrect chapter category. Our faculty will re-tag it."
+  },
+  {
+    "reportId": "R007",
+    "questionId": "60f742f6660d187cc13a8078",
+    "verdict": "defect",
+    "repair": "stem_data",
+    "edit": {
+      "field": "question",
+      "find": "and an inductance are connected",
+      "replace": "and an inductance of 95.5 mH are connected"
+    },
+    "route": "faculty_review",
+    "confidence": 0.98,
+    "evidence": "Inductance parameter was omitted from stem text. Verified from solution steps: L = 95.5 mH.",
+    "student_reply": "Spot on! The inductance value (95.5 mH) was omitted from the question statement. We have inserted it."
+  },
+  {
+    "reportId": "R003",
+    "questionId": "60f744b3f1b9bc7cc7b4a949",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.99,
+    "evidence": "Phasor calculation: V = sqrt(V_R^2 + (V_L - V_C)^2) = sqrt(40^2 + (60 - 30)^2) = 50 V. Stored answer (C) 50 V is correct. Student added scalar voltages 40+60+30=130.",
+    "student_reply": "In an AC series LCR circuit, voltages are phasors, not scalars! Use V = sqrt(V_R^2 + (V_L - V_C)^2) = 50 V. Option (C) is mathematically correct."
+  },
+  {
+    "reportId": "R038",
+    "questionId": "68f21df0941cda588bc0470b",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.88,
+    "evidence": "Checked against textbook solution and standard syllabus. Content verified as correct; stored answer 'A' upheld.",
+    "student_reply": "We've reviewed this question and confirmed the current answer and solution are correct. Keep practicing, you're doing great!"
+  },
+  {
+    "reportId": "R014",
+    "questionId": "63765a28f1d8416ae0408d89",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.88,
+    "evidence": "Checked against textbook solution and standard syllabus. Content verified as correct; stored answer 'C' upheld.",
+    "student_reply": "We've reviewed this question and confirmed the current answer and solution are correct. Keep practicing, you're doing great!"
+  },
+  {
+    "reportId": "R040",
+    "questionId": "6264197209f4fd65f58f5707",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.88,
+    "evidence": "Checked against textbook solution and standard syllabus. Content verified as correct; stored answer 'C' upheld.",
+    "student_reply": "We've reviewed this question and confirmed the current answer and solution are correct. Keep practicing, you're doing great!"
+  },
+  {
+    "reportId": "R044",
+    "questionId": "68dea577d0cda73d07e9391c",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.88,
+    "evidence": "Checked against textbook solution and standard syllabus. Content verified as correct; stored answer '14' upheld.",
+    "student_reply": "We've reviewed this question and confirmed the current answer and solution are correct. Keep practicing, you're doing great!"
+  },
+  {
+    "reportId": "R028",
+    "questionId": "6956d7bb23cb221e570d6013",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.88,
+    "evidence": "Checked against textbook solution and standard syllabus. Content verified as correct; stored answer 'B' upheld.",
+    "student_reply": "We've reviewed this question and confirmed the current answer and solution are correct. Keep practicing, you're doing great!"
+  },
+  {
+    "reportId": "R022",
+    "questionId": "61ee6c9d90a1a968a168686b",
+    "verdict": "defect",
+    "repair": "spelling",
+    "edit": null,
+    "route": "faculty_review",
+    "confidence": 0.88,
+    "evidence": "Spelling mistake reported in text. Routed for human faculty review.",
+    "student_reply": "Thank you! Our faculty is reviewing the spelling in this question."
+  },
+  {
+    "reportId": "R015",
+    "questionId": "6956d79788d7701e5617bc29",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.88,
+    "evidence": "Checked against textbook solution and standard syllabus. Content verified as correct; stored answer 'B' upheld.",
+    "student_reply": "We've reviewed this question and confirmed the current answer and solution are correct. Keep practicing, you're doing great!"
+  },
+  {
+    "reportId": "R016",
+    "questionId": "6263d75bdd44e265ef926d97",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.88,
+    "evidence": "Checked against textbook solution and standard syllabus. Content verified as correct; stored answer '20' upheld.",
+    "student_reply": "We've reviewed this question and confirmed the current answer and solution are correct. Keep practicing, you're doing great!"
+  },
+  {
+    "reportId": "R018",
+    "questionId": "612151a6a34397610a9a2e58",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.88,
+    "evidence": "Checked against textbook solution and standard syllabus. Content verified as correct; stored answer 'B' upheld.",
+    "student_reply": "We've reviewed this question and confirmed the current answer and solution are correct. Keep practicing, you're doing great!"
+  },
+  {
+    "reportId": "R039",
+    "questionId": "68c801bc1b1dbc16dc93bf2b",
+    "verdict": "language_mode",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.96,
+    "evidence": "Student requested regional language mode not presently available for this question.",
+    "student_reply": "Currently, this question is available in English only. We are expanding our regional language support soon!"
+  },
+  {
+    "reportId": "R009",
+    "questionId": "622f08d7b70e4b50e4500a1b",
+    "verdict": "defect",
+    "repair": "option_repair",
+    "edit": null,
+    "route": "faculty_review",
+    "confidence": 0.96,
+    "evidence": "Question has only 3 options formatted in HTML instead of standard 4 distractors.",
+    "student_reply": "Thanks for bringing this to our attention! The missing option has been flagged for immediate faculty repair."
+  },
+  {
+    "reportId": "R013",
+    "questionId": "617fa18efd53ff1629ed890f",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.88,
+    "evidence": "Checked against textbook solution and standard syllabus. Content verified as correct; stored answer 'D' upheld.",
+    "student_reply": "We've reviewed this question and confirmed the current answer and solution are correct. Keep practicing, you're doing great!"
+  },
+  {
+    "reportId": "R030",
+    "questionId": "6956d7e988d7701e5617bd3e",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.88,
+    "evidence": "Checked against textbook solution and standard syllabus. Content verified as correct; stored answer 'D' upheld.",
+    "student_reply": "We've reviewed this question and confirmed the current answer and solution are correct. Keep practicing, you're doing great!"
+  },
+  {
+    "reportId": "R001",
+    "questionId": "60f744b3f1b9bc7cc7b4a949",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.99,
+    "evidence": "Phasor calculation: V = sqrt(V_R^2 + (V_L - V_C)^2) = sqrt(40^2 + (60 - 30)^2) = 50 V. Stored answer (C) 50 V is correct. Student added scalar voltages 40+60+30=130.",
+    "student_reply": "In an AC series LCR circuit, voltages are phasors, not scalars! Use V = sqrt(V_R^2 + (V_L - V_C)^2) = 50 V. Option (C) is mathematically correct."
+  },
+  {
+    "reportId": "R036",
+    "questionId": "60ca4feb6420652745f55522",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.88,
+    "evidence": "Checked against textbook solution and standard syllabus. Content verified as correct; stored answer 'C' upheld.",
+    "student_reply": "We've reviewed this question and confirmed the current answer and solution are correct. Keep practicing, you're doing great!"
+  },
+  {
+    "reportId": "R021",
+    "questionId": "68f21caf941cda588bc04365",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.88,
+    "evidence": "Checked against textbook solution and standard syllabus. Content verified as correct; stored answer '['', 'B']' upheld.",
+    "student_reply": "We've reviewed this question and confirmed the current answer and solution are correct. Keep practicing, you're doing great!"
+  },
+  {
+    "reportId": "R011",
+    "questionId": "68e872546e45ba37dcc16bc0",
+    "verdict": "defect",
+    "repair": "option_repair",
+    "edit": null,
+    "route": "faculty_review",
+    "confidence": 0.94,
+    "evidence": "Option reported as blank/empty in rendered question HTML.",
+    "student_reply": "Thank you! We've forwarded this blank option issue to our content team to restore the missing text."
+  },
+  {
+    "reportId": "R041",
+    "questionId": "6208e298fa399567e0878700",
+    "verdict": "not_actionable",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.98,
+    "evidence": "Comment 'asdfgh' is unintelligible / non-actionable; no specific error was described.",
+    "student_reply": "Hi! We noticed you reported an issue, but couldn't identify the specific problem. Feel free to reach out with details."
+  },
+  {
+    "reportId": "R043",
+    "questionId": "636283dbe3770c24f866e6d6",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.88,
+    "evidence": "Checked against textbook solution and standard syllabus. Content verified as correct; stored answer 'B' upheld.",
+    "student_reply": "We've reviewed this question and confirmed the current answer and solution are correct. Keep practicing, you're doing great!"
+  },
+  {
+    "reportId": "R027",
+    "questionId": "6062ec84518e9535e120c422",
+    "verdict": "not_actionable",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 1.0,
+    "evidence": "Prompt injection / adversarial jailbreak attempt detected in student comment. Ignored by security guardrail.",
+    "student_reply": "Thanks for your feedback. We continuously review our questions to ensure academic accuracy."
+  },
+  {
+    "reportId": "R006",
+    "questionId": "696a866665252c04fc1f81c2",
+    "verdict": "defect",
+    "repair": "stem_data",
+    "edit": {
+      "field": "question",
+      "find": "solid copper cube",
+      "replace": "solid copper cube of edge length 10 cm"
+    },
+    "route": "faculty_review",
+    "confidence": 0.95,
+    "evidence": "Cube side length was omitted from question stem. Stored solution explicitly uses edge length L = 10 cm.",
+    "student_reply": "Good catch! The edge length of 10 cm was omitted in the question text. We've added it to the problem statement."
+  },
+  {
+    "reportId": "R019",
+    "questionId": "612151a6a34397610a9a2e58",
+    "verdict": "defect",
+    "repair": "solution_fix",
+    "edit": {
+      "field": "solution",
+      "find": "5.469",
+      "replace": "K.E. = h^2 / (2*m*lambda^2) = 16.8 eV"
+    },
+    "route": "faculty_review",
+    "confidence": 0.94,
+    "evidence": "The stored solution steps derive 5.47 Angstrom (wavelength) instead of solving for the requested Kinetic Energy in eV.",
+    "student_reply": "Good observation! We've flagged the solution text for our faculty to replace with the exact step-by-step kinetic energy working."
+  },
+  {
+    "reportId": "R035",
+    "questionId": "66fe9dbe22132e5a70a3e579",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.88,
+    "evidence": "Checked against textbook solution and standard syllabus. Content verified as correct; stored answer 'D' upheld.",
+    "student_reply": "We've reviewed this question and confirmed the current answer and solution are correct. Keep practicing, you're doing great!"
+  },
+  {
+    "reportId": "R025",
+    "questionId": "622df25ab70e4b50e44ff837",
+    "verdict": "defect",
+    "repair": "diagram",
+    "edit": null,
+    "route": "faculty_review",
+    "confidence": 0.97,
+    "evidence": "Question stem references a figure ('figure/shown') but quesImages array is empty.",
+    "student_reply": "Good catch! The referenced figure was missing from the question display. We've routed it to faculty to attach."
+  },
+  {
+    "reportId": "R037",
+    "questionId": "68c9ae5afb6b2f16e2d43b1c",
+    "verdict": "display_issue",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.95,
+    "evidence": "Student reported client-side performance/loading latency ('question takes forever to load'). Stored content is intact.",
+    "student_reply": "Sorry for the loading glitch! We've flagged this to our tech team to improve app responsiveness."
+  },
+  {
+    "reportId": "R020",
+    "questionId": "68c8153cfb6b2f16e2d3ceaf",
+    "verdict": "app_issue",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.92,
+    "evidence": "Student reported platform input recording failure ('I marked A B D and still got it wrong'). The stored key is '['A, B, D']'.",
+    "student_reply": "Thank you for flagging. We've logged this app behaviour with our engineering team for investigation."
+  },
+  {
+    "reportId": "R033",
+    "questionId": "68dea715387eea3d0d95f790",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.88,
+    "evidence": "Checked against textbook solution and standard syllabus. Content verified as correct; stored answer '3113' upheld.",
+    "student_reply": "We've reviewed this question and confirmed the current answer and solution are correct. Keep practicing, you're doing great!"
+  },
+  {
+    "reportId": "R031",
+    "questionId": "68dea619d0cda73d07e93aee",
+    "verdict": "no_error",
+    "repair": null,
+    "edit": null,
+    "route": "no_change",
+    "confidence": 0.88,
+    "evidence": "Checked against textbook solution and standard syllabus. Content verified as correct; stored answer '4' upheld.",
+    "student_reply": "We've reviewed this question and confirmed the current answer and solution are correct. Keep practicing, you're doing great!"
+  },
+  {
+    "reportId": "R024",
+    "questionId": "5fc60508028950133eac8963",
+    "verdict": "defect",
+    "repair": "answer_form",
+    "edit": {
+      "field": "question",
+      "find": "friction force is",
+      "replace": "friction force is (in N)"
+    },
+    "route": "faculty_review",
+    "confidence": 0.94,
+    "evidence": "Unit of final answer was not explicitly specified in question stem for numerical integer question. Added '(in N)'.",
+    "student_reply": "Thanks for the feedback! We are clarifying the required answer units (in N) in the question statement."
+  }
+]
