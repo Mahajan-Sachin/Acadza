@@ -54,13 +54,17 @@
 
 ---
 
-### [1:45 - 2:05] 5. Bonus: Unreported Defects & Conclusion
+### [1:45 - 2:05] 5. Bonus: Unreported Defects (Proactive Audit) & Conclusion
 
-**[Action: Clear search, and click the golden `Bonus: Unreported (2)` button in the top header. The modal opens.]**
+**[Action: Clear search bar, and click the golden `✨ Bonus: Unreported (2)` button in the top header. The modal pops up showing the 2 detected defects.]**
 
 **What to say:**
-> *"Finally, the bonus challenge: our dataset had 4 questions that zero students reported. Our proactive scanner audited all of them and found 2 latent defects before any student had to stumble on them—including an unclosed `<mspace>` markup leak in an electrostatics capacitor and a formula typo in optics.  
-> All 44 evaluated cases are committed in `results.json`, accompanied by `PROMPTS.md` and `PRODUCT.md`.  
-> Thank you, and I look forward to the live adaptation round!"*
+> *"Finally, the bonus round: In our dataset of 43 questions, 4 questions had zero student reports.  
+> We proactively audited all 4 of those unflagged questions to test our engine. 2 of them were completely sound, but our scanner caught 2 real latent defects that no student had reported yet:  
+> First, an unclosed `<mspace>` HTML/MathML tag in an electrostatics question that was distorting the options.  
+> And second, a typo in a geometrical optics solution formula where it wrote `P_{eqch}` instead of `P_{each}`.  
+> Catching these before students even report them is how we protect trust at scale.  
+> All 44 evaluated reports are in `results.json`, with complete strategy memos in `PRODUCT.md` and `PROMPTS.md`.  
+> Thank you, and I'm excited for the live round!"*
 
-**[Action: Stop recording. Done!]**
+**[Action: Click 'Close' or finish on screen. Stop recording. Done!]**
